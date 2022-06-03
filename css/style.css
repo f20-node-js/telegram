@@ -1,0 +1,326 @@
+#notficationCheckbox {
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+#chat_list li.active {
+    background-color: #4299E1;
+    color: white;
+}
+.nameH2.active{
+    color: white;
+}
+
+.names .active {
+    color: white;
+}
+
+.time.active {
+    color: white;
+}
+
+#files {
+    padding: 10px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+}
+
+#files div {
+    width: 100%;
+    overflow: auto;
+}
+
+#messageBox {
+    overflow: hidden;
+}
+
+#messageDiv {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#chat_list {
+    overflow: auto;
+}
+
+.mTime {
+    color: #7E8A96;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+
+
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#messageDiv::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#messageDiv {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+#chat_list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#chat_list {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+
+
+.changeContact {
+    border: 1px solid #E8E8E8;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3000;
+}
+
+.changeContactDiv {
+    background-color: #F1F3F4;
+    border: 1px solid #E8E8E8;
+    width: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chCtext {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.chClogo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chClogo .logo {
+
+    margin: 20px;
+}
+
+.chClogo .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.chClogo .number {
+    font-size: 25px;
+}
+
+.chCfirstName {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.chCfirstName input {
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.chClastName {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.chClastName input {
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.chCbuttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chCbuttons button {
+    margin: 0 10px;
+    width: 80px;
+    height: 25px;
+    background-color: #007ACC;
+    color: white;
+    border-radius: 5px;
+}
+
+.contactSettings {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactSettingsDiv {
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.contactSettingsDiv:hover {
+    background-color: aliceblue;
+}
+
+.contactSettingsDiv img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.contactSettingsDiv span {
+    font-size: 25px;
+}
+
+
+/* ================================================================== */
+.leftMenu{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.leftMenuDiv{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #C8C8C8;
+    width: 152px;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.leftMenuDiv div{
+    border-radius: 7px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 150px;
+    background-color: white;
+    border: white;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.leftMenuDiv div:hover{
+    background-color: #E1E1E1;
+}
+.leftMenuDiv div img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+/* ================================================================== */
+
+
+/* new group ===================================================== */
+.newGroup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newGroupDiv{
+    border: 1px solid #E8E8E8;
+    width: 370px;
+    background-color: #F7F7F7;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.newGroupDiv div{
+    padding: 5px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+}
+.newGroupDiv div input{
+    border: 1px solid #2F2F2F;
+    border-radius: 5px;
+    background-color: white;
+}
+.newGroupDiv div button{
+    width: 100px;
+    background-color: #007ACC;
+    color: white;
+    border: 1px solid #007ACC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.newGroupDiv div button:active{
+    background-color: #006EB1;
+}
+/* ======================================================================== */
+
+
+#leftSearchInput{
+    color: black;
+}
